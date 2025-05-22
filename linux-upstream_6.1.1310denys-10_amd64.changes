@@ -1,0 +1,46 @@
+Format: 1.8
+Date: Thu, 22 May 2025 15:48:42 +0300
+Source: linux-upstream
+Binary: linux-headers-6.1.1310denys linux-image-6.1.1310denys linux-image-6.1.1310denys-dbg linux-libc-dev
+Architecture: source amd64
+Version: 6.1.1310denys-10
+Distribution: bookworm
+Urgency: low
+Maintainer: denys <denys@DEBIAN-HOME.time2wall.com>
+Changed-By: denys <denys@DEBIAN-HOME.time2wall.com>
+Description:
+ linux-headers-6.1.1310denys - Linux kernel headers for 6.1.1310denys on amd64
+ linux-image-6.1.1310denys - Linux kernel, version 6.1.1310denys
+ linux-image-6.1.1310denys-dbg - Linux kernel debugging symbols for 6.1.1310denys
+ linux-libc-dev - Linux support headers for userspace development
+Changes:
+ linux-upstream (6.1.1310denys-10) bookworm; urgency=low
+ .
+   * Custom built Linux kernel.
+Checksums-Sha1:
+ d1142590b6d7a7a2844a7b9901187ceab787081d 1240 linux-upstream_6.1.1310denys-10.dsc
+ fd3bc97cc6cf52a00e335ed73e37ff6a680b21e9 226855985 linux-upstream_6.1.1310denys.orig.tar.gz
+ b2b62806558f5ccd61730e6644289a7f165be84f 2606690 linux-upstream_6.1.1310denys-10.diff.gz
+ 2bcda6f99fcd1767d90ce670c537b7d4b6f7d189 8544476 linux-headers-6.1.1310denys_6.1.1310denys-10_amd64.deb
+ daa4d81e04eb243c8d3d1397ad393e74328cbd5f 110131948 linux-image-6.1.1310denys-dbg_6.1.1310denys-10_amd64.deb
+ a0d60b5688a579841f2609f34ebeb244d268a04d 24181296 linux-image-6.1.1310denys_6.1.1310denys-10_amd64.deb
+ f6da58ef90723193df37ae852e493df83e8bf65a 1275356 linux-libc-dev_6.1.1310denys-10_amd64.deb
+ 94070be45593b6fddcb1e95cbe5352c8b6ff1084 5961 linux-upstream_6.1.1310denys-10_amd64.buildinfo
+Checksums-Sha256:
+ 3461271d6fc6fc4e2389116da5b67ba58cecf8c5df53871b8b4cfe53568b536f 1240 linux-upstream_6.1.1310denys-10.dsc
+ a6f8b04c70895420dd2f0f0bc88e1ede823f9b20e414662384a2ea3cd81e301a 226855985 linux-upstream_6.1.1310denys.orig.tar.gz
+ 6c2fa745488bffc59c430a8bda1ebeca67c5dcd107c9186175d7b9509386bb3b 2606690 linux-upstream_6.1.1310denys-10.diff.gz
+ b782c27e8d35a09fff130b9c221473512ce849ae826c813c55567dc80e862f87 8544476 linux-headers-6.1.1310denys_6.1.1310denys-10_amd64.deb
+ 0a60cdb2c4d060356be6b1a8d33f0459d2085d8c5d71f88d32537811bf85b44e 110131948 linux-image-6.1.1310denys-dbg_6.1.1310denys-10_amd64.deb
+ 8c9bdc61d3a0d6d4dbe4694ec51b57592cba5e530cf4762b00a4bffa7dc19afe 24181296 linux-image-6.1.1310denys_6.1.1310denys-10_amd64.deb
+ 688b9406df441697d6195956818502b91624b83104653064b1d6c6279569ce68 1275356 linux-libc-dev_6.1.1310denys-10_amd64.deb
+ cb9771273981eee1057a26517c488bd8d6d1c3081556371c35f3c1914ada5640 5961 linux-upstream_6.1.1310denys-10_amd64.buildinfo
+Files:
+ a709baa8ec3f69d16824c2f01f3e6074 1240 kernel optional linux-upstream_6.1.1310denys-10.dsc
+ bf7bea8204092ad7405df814e6947042 226855985 kernel optional linux-upstream_6.1.1310denys.orig.tar.gz
+ e4394bc8edad8b78e9df8f70b2c99bbb 2606690 kernel optional linux-upstream_6.1.1310denys-10.diff.gz
+ 206e8f1c282e6b3e68897557b7970126 8544476 kernel optional linux-headers-6.1.1310denys_6.1.1310denys-10_amd64.deb
+ b1b25a8b57c3ae6d517c5935d73f0b1c 110131948 debug optional linux-image-6.1.1310denys-dbg_6.1.1310denys-10_amd64.deb
+ 3ea7a9211ad37ec97637a94a98bfe774 24181296 kernel optional linux-image-6.1.1310denys_6.1.1310denys-10_amd64.deb
+ a7a120fcbf24fc11a33d0b08956184e4 1275356 devel optional linux-libc-dev_6.1.1310denys-10_amd64.deb
+ 5cddc4eb7916399dae652f80878c11d3 5961 kernel optional linux-upstream_6.1.1310denys-10_amd64.buildinfo
